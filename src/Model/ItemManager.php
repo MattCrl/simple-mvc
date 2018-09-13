@@ -2,7 +2,7 @@
 // src/Model/ItemManager.php
 require __DIR__ . '/../../app/db.php';
 
-// récupération de tous les items
+// Récupération de tous les items
 function selectAllItems() :array
 {
     $pdo = new \PDO(DSN, USER, PASS);
