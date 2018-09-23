@@ -8,6 +8,7 @@
         <?php foreach ($items as $item) : ?>
             <li><?= $item['title'] ?></li>
         <?php endforeach ?>
+
     </ul>
 </section>
 </body>

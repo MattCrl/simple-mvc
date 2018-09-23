@@ -1,0 +1,15 @@
+{
+    "name": "mattcrl/simple-mvc-quest",
+    "authors": [
+        {
+            "name": "Matt Crl",
+            "email": "matth.carlevaris@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {}
+}
