@@ -5,15 +5,15 @@
 </head>
 <body>
 <section>
-    <h1>Items</h1>
+    <h1>Categories</h1>
     <ul>
-        <?php foreach ($items as $item) : ?>
-            <li><a href="/item/<?= $item['id'] ?>"><?= $item['title'] ?></li>
+        <?php foreach ($categories as $category) : ?>
+            <li><a href="/category/<?= $category['id'] ?>"><?= $category['name'] ?></a></li>
         <?php endforeach ?>
 
     </ul>
 
-    <a href="/category">Show all categories</a>
+    <a href="/">Go back to the items list</a>
 </section>
 </body>
 </html>
