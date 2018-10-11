@@ -1,0 +1,16 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}Items list{% endblock %}
+
+{% block content %}
+    <section>
+        <h1>Items</h1>
+        <ul>
+            {% for item in items %}
+                <li><a href="item/{{ item.id }}">{{ item.title }}</a></li>
+            {% endfor %}
+        </ul>
+
+        <a href="/category">Show all categories</a>
+    </section>
+{% endblock %}
